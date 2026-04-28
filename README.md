@@ -92,3 +92,16 @@ This is a group project completed collaboratively.
 📖 Conclusion
 
 This project provides a foundational understanding of compiler design through practical implementation.
+
+---
+
+## 📸 Output Screenshots
+
+### Token Table
+![Token](screenshots/token.png)
+
+### Symbol Table
+![Symbol](screenshots/symbol.png)
+
+### FIRST & FOLLOW Sets
+![FirstFollow](screenshots/first_follow.png)
