@@ -1,0 +1,16 @@
+BEGIN
+    INTEGER N1, N2, I, GCD
+    READ N1, N2
+
+    GCD := 1
+
+    FOR I := 1 TO N1 DO
+        IF N1 MOD I == 0 THEN
+            IF N2 MOD I == 0 THEN
+                GCD := I
+            ENDIF
+        ENDIF
+    END FOR
+
+    PRINT GCD
+END
